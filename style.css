@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('fundo.jpg') no-repeat center center fixed;
+  background-size: cover;
+ color: #ffae00;
+  margin: 0;
+  padding: 0;
+background-color: #5e5d5d;
+}
+
+nav.menu {
+  background: rgb(0, 0, 0);
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+nav.menu a{
+  color: #ffffff;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav.menu :hover {
+  text-decoration: underline;
+  color: #ffae00;
+}
+
+section {
+  padding: 20px;
+}
+
+h1, h2, h3 {
+   color: #ffae00;
+}
+strong {
+  color: coral;
+}
