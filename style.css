@@ -2,29 +2,29 @@ body {
   font-family: Arial, sans-serif;
   background: url('fundo.jpg') no-repeat center center fixed;
   background-size: cover;
- color: #ffae00;
+ color: #b7b9be;
   margin: 0;
   padding: 0;
-background-color: #5e5d5d;
+background-color:  #bdc5d8;
 }
 
 nav.menu {
-  background: rgb(0, 0, 0);
+  background-color: #444758;
   padding: 10px;
   position: sticky;
   top: 0;
 }
 
 nav.menu a{
-  color: #ffffff;
-  margin-right: 15px;
+  color: #ff9900;
+  margin-right: 10px;
   text-decoration: none;
   font-weight: bold;
 }
 
 nav.menu :hover {
   text-decoration: underline;
-  color: #ffae00;
+  color: #ffd000;
 }
 
 section {
@@ -32,8 +32,45 @@ section {
 }
 
 h1, h2, h3 {
-   color: #ffae00;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  max-width: 500px;
+  margin: 25px;
+  padding: 20px;
+  background-color: #ff8800;
+  border-radius: 60px;
+  box-shadow: 0 4px 5px #394039;
+  color:  #ffffff;
 }
-strong {
-  color: coral;
+nav {
+  color: rgb(255, 2, 2);
+}
+.box, .box2, .box3, .box4 {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #e5e9eb;
+  font-weight: 100;
+  padding: 15px;
+  margin: 40px auto;
+  width: 90%;
+  box-shadow: 0 4px 8px rgba(0,0,0, 0.4);
+  max-width: 800px;
+  color:#006d8f ;
+  border-radius: 10px;
+}
+.Mbt {
+   max-width: 1000px;
+  margin: 40px auto;
+  padding: 10px;
+  background-color: #b9b8a7;
+  border-radius: 10px;
+}
+.centro{
+  font-size: 2.0em;
+  text-align: center;
+  background-color: #ff9900;
+  color: #fdfdfd;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.menucenter{
+  font-size: 2.0em;
+  text-align: center;
 }
